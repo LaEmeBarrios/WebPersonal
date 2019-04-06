@@ -1,0 +1,160 @@
+<!--Estructura inicial-->
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <style>
+    nav-item{
+        color:black;
+
+    }
+    
+    </style>
+  </head>
+
+  <body>
+      <!--Barra de menu-->
+    <nav class="navbar navbar-expand-lg navbar-imverse bg-inverse">
+         <a class="navbar-brand" href="#">Inicio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+            </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Perfil Profesional <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                     <a class="nav-link" href="#">Redes Sociales</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contenido
+                   </a>
+                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Desarrollo Web</a>
+                    <a class="dropdown-item" href="#">Apicultura </a>
+                    <a class="dropdown-item" href="#">Agricultura </a>
+                    <a class="dropdown-item" href="#">Meditacion </a>
+                    <a class="dropdown-item" href="#">Cosmos </a>
+
+                <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Talleres</a>
+                <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Musica</a>
+                </div>
+                </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Desabilitado</a>
+                    </li>
+                </ul>
+                 <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Buscar</button>
+                 </form>
+             </div>
+        </nav>
+        <!-- Slides -->
+        <section>
+            <div class="col-md-12">
+                <div id="SlidesInicio" class="carousel slide" data-ride="carousel">
+                    <!--Contenedor de slides-->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/Progra.jpg" class="img-fluid" alt="codigoVisualStudio">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/api.jpg" class="img-fluid"" alt="AbejasColmena">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/hongos.jpg" class="img-fluid"" alt="SiembraHongos">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/med.jpg" class="img-fluid"" alt="MeditacionAtardecer">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/cosmo.jpg" class="img-fluid"" alt="EspacioExpandible">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Musica.jpg" class="img-fluid"" alt="ControladorNES">
+                        </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#SlidesInicio" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#SlidesInicio" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Siguiente</span>
+                        </a>
+                 </div>
+                </div>
+        </section>
+
+        <section id="Inicio">
+            <div class="ContenidoInicio">
+                <div class="container ml-5 ">
+                    <h2>LaEmeBarrios Blog</h2>
+                    <p class="lead">Informacion de todo lo que me apasiona, perfil profesional, articulos de interes y actualidad, contacto y mucha musica.</p>
+                </div>
+                <!--Contenido Columnas-->
+           <section>
+                <div class="row">
+                 <div class="col-sm-12">
+                     <div class="card-group">
+                         <!--Carta 1-->
+                          <div class="card bg-dark text-white ml-2"> <!--margen-->
+                            <img src="img/falconmaster.jpg" class="card-img-top" alt="EntrevistaFalconMaster">
+                            <div class="card-body">
+                                <h5 class="card-title">Entrevista a Carlos Arturo Esparza uno de los mejores blogueros en el Desarrollo Web</h5>
+                                 <p class="card-text">Carlos es creador de multiples proyectos web, siendo su proyecto estrella FalconMasters una Comunidad de Diseño y Desarrollo web, donde cuenta con mas de 200000 estudiantes...</p>
+                               <button class="btn btn-dark" data data-toggle="#myModal">Ver mas</button>
+                            </div>
+                        </div>
+                        <!--Carta 2-->
+                        <div class="card">
+                                <img src="img/morganfreeman.jpg" class="card-img-top" alt="MorganFreeman">
+                                <div class="card-body">
+                                    <h5 class="card-title">El actor Morgan Freeman se convierte en apicultor</h5>
+                                     <p class="card-text">El amor que Morgan Freeman siente por sus abejas es digno de admiración, de actor pasó a ser “apicultor consciente” sin preámbulos y convirtió su rancho de 124 acres en un paraíso para abejas y polinizadores silvestres...</p>
+                                   <button class="btn btn-dark" data data-toggle="#myModal">Ver mas</button>
+                                </div>
+                            </div>
+                            <!--Carta 3-->
+                                 <div class="card bg-dark text-white">
+                                <img src="img/sonar.jpg" class="card-img-top" alt="SonarFestival">
+                                <div class="card-body">
+                                    <h5 class="card-title">Festival Sonar envia al espacio 20 nuevas canciones</h5>
+                                     <p class="card-text">Los próximos 14, 15 y 16 de mayo, el Sónar celebrará sus 25 años de andadura invocando a la inteligencia extraterrestre. La Tierra se le ha quedado pequeña al festival, que ha decidido mandar algunos temas de artistas afines al espacio...</p>
+                                   <button class="btn btn-dark" data data-toggle="#myModal">Ver mas</button>
+                                </div>
+                            </div>
+                            </div>
+
+
+                    </div>
+
+
+                </div>
+
+            </section>
+
+            </div>
+
+
+
+
+
+        </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
